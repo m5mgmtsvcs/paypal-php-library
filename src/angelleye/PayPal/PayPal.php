@@ -36,6 +36,9 @@
  * @package 		paypal-php-library
  * @author			Andrew Angell <service@angelleye.com>
  */
+use \AllowDynamicProperties;
+
+#[AllowDynamicProperties]
 class PayPal
 {
 
